@@ -27,3 +27,24 @@
   text-align: center;
   /* margin-top: -140px !important; */
 }
+
+/* .col-md-7{
+  display: block;
+  padding-top: 50px;
+  margin-top: 50px;
+} */
+
+
+/* .row card flex-row{
+  marg
+} */
+
+.col-md-5 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.btn-danger{
+  margin: 80px;
+  
+}
