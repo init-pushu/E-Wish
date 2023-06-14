@@ -96,6 +96,8 @@ const CartPage = () => {
             </h1>
           </div>
         </div>
+        </div>
+        
         <div className="container ">
           <div className="row ">
             <div className="col-md-7  p-0 m-0">
@@ -107,13 +109,13 @@ const CartPage = () => {
                       className="card-img-top"
                       alt={p.name}
                       width="100%"
-                      height={"130px"}
+                      height={"200px"}
                     />
                   </div>
                   <div className="col-md-4">
-                    <p>{p.name}</p>
-                    <p>{p.description.substring(0, 30)}</p>
-                    <p>Price : {p.price}</p>
+                    <p><b>{p.name}</b></p>
+                    <p>{p.description.substring(0,50)+`...`}</p>
+                    <p>Price : <b>{p.price}</b></p>
                   </div>
                   <div className="col-md-4 cart-remove-btn">
                     <button
@@ -195,7 +197,8 @@ const CartPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      
+    
     </Layout>
   );
 };
