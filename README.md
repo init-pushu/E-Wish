@@ -7,3 +7,4 @@ A detailed description of the product makes the shopper's decision to make the p
 
 Implemented CRUD operations on event model.
 mongodb+srv://pushkaranmol100:<db_password>@cluster0.as3se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+C30VeAyeICKUK3hO
